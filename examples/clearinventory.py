@@ -17,5 +17,5 @@ def clear_inventory_command(sender, label, args):
         sender.sendMessage(ChatColor.translateAlternateColorCodes('&', player_only_message))
     return True
 
-ps.command.registerCommand(clear_inventory_command, 'clear_inventory', 'Clear your inventory', '/clear_inventory',
-                           ['cinventory', 'cleari', 'purgeinventory', 'purge_inventory', 'pi', 'purgei', 'pinventory'])
+ps.command.registerCommand(clear_inventory_command, 'clear', 'Clear your inventory', '/clean',
+                           ['cinventory', 'cleari', 'purgeinventory', 'purge', 'clean', 'purge_inventory', 'pi', 'purgei', 'pinventory'])

@@ -1,6 +1,6 @@
 name: ${project.pluginName}
 version: ${project.version}
-author: magicmq
+author: Kyle Speight
 main: dev.magicmq.pyspigot.bukkit.PySpigot
 load: STARTUP
 api-version: '1.13'

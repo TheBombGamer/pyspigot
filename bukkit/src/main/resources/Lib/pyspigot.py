@@ -1,6 +1,3 @@
-"""
-A helper module for more easy access to PySpigot's managers.
-"""
 from dev.magicmq.pyspigot.bukkit import PySpigot
 from dev.magicmq.pyspigot.manager.script import ScriptManager
 from dev.magicmq.pyspigot.manager.script import GlobalVariables
@@ -12,15 +9,12 @@ from dev.magicmq.pyspigot.manager.database import DatabaseManager
 from dev.magicmq.pyspigot.manager.redis import RedisManager
 
 def script_manager():
-    """Get the script manager for loading, unloading, and reloading scripts."""
     return ScriptManager.get()
 
 def global_variables():
-    """Get the global variables manager for setting and getting global variables."""
     return GlobalVariables.get()
 
 def listener_manager():
-    """Get the listener manager for registering and unregistering event listeners."""
     return ListenerManager.get()
 
 def command_manager():
